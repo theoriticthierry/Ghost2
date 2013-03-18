@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Ghost">
+      <UniqueIdentifier>{019cc353-6d75-466f-95b3-55e99ea508e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ghost\src">
+      <UniqueIdentifier>{66ea0340-26d9-4c24-b4c0-412806cc57cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ghost\src\intern">
+      <UniqueIdentifier>{bf78e345-9510-46a8-abf4-503b84c75281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\libs">
+      <UniqueIdentifier>{2bfcfd30-95a1-4754-9bfb-7fc5e106a8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\libs\string">
+      <UniqueIdentifier>{90167f8a-bd5e-4796-910a-edcc0dd72c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ghost">
+      <UniqueIdentifier>{9cc6c5b6-5caa-4bf3-ad5e-428edb5bf341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ghost\include">
+      <UniqueIdentifier>{3bbca77c-c0a7-43e2-9d59-12b3709c0a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ghost\include\intern">
+      <UniqueIdentifier>{eb03cf8b-3bf1-4f83-83d0-14c620c5b52d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\string\STR_String.h">
+      <Filter>Fichiers d%27en-tête\libs\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_Buttons.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_WindowWin32.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_C-api.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_CallbackEventConsumer.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_Debug.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_DisplayManager.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_DisplayManagerNULL.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_DisplayManagerWin32.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_DropTargetWin32.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_Event.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventButton.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventCursor.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventDragnDrop.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventKey.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventManager.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventNDOF.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventPrinter.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventString.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventTrackpad.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_EventWheel.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_IEvent.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_IEventConsumer.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_ISystem.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_ISystemPaths.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_ITimerTask.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_IWindow.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_ModifierKeys.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_NDOFManager.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_NDOFManagerWin32.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_Path-api.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_Rect.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_SystemNULL.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_SystemPaths.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_SystemPathsWin32.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_SystemWin32.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_TaskbarWin32.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_TimerManager.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_TimerTask.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GHOST_Types.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_Window.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_WindowManager.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\intern\GHOST_WindowNULL.h">
+      <Filter>Fichiers d%27en-tête\Ghost\include\intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\string\STR_String.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_Buttons.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_WindowWin32.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_C-api.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_CallbackEventConsumer.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_DisplayManager.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_DisplayManagerWin32.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_DropTargetWin32.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_EventManager.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_EventPrinter.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_ISystem.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_ISystemPaths.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_ModifierKeys.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_NDOFManager.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_NDOFManagerWin32.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_Path-api.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_Rect.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_System.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_SystemPathsWin32.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_SystemWin32.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_TimerManager.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_Window.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\intern\GHOST_WindowManager.cpp">
+      <Filter>Fichiers sources\Ghost\src\intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
